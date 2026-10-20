@@ -1,21 +1,24 @@
 body {
-  background-color: #48D1CC; /* Warna biru tosca */
-  font-family: Arial, sans-serif; /* Jenis huruf yan bersih dan mudah dibaca */
-color: #FF1493; /* Warna teks utama (Pink tua) */
+  background-color: #48D1CC;
+  font-family: Arial, sans-serif;
+  color: #FF1493;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
-
 .kartu-profil {
-  width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah auto menengah kiri/kanan */
+  width: 350px;
+  margin: 0;
   padding: 20px;
   backgroud-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,1);
   text-align: center;
 }
-
 .kartu-profil img {
-  width: 150px;
-  border-radius: 50%; /* Trik untuk membuat backgroud persegi menjadi lingkaran sempurna */
+  width: 200px;
+  border-radius: 50%;
 }
   
